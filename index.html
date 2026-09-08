@@ -156,29 +156,53 @@
         <div class="project-grid">
           <article class="project-card featured">
             <div class="project-top"><span>01</span><span class="tag">AI + OBSERVABILITY</span></div>
-            <h3>AI-Powered Autonomous Monitoring System</h3>
+            <h3>AI-Powered Self-Healing Kubernetes Monitoring & RCA</h3>
             <p>
-              A Kubernetes-based self-healing observability system using Loki and Promtail for centralized
-              logs, plus FastAPI and LLMs for automated Root Cause Analysis and code-level remediation.
+              Built a cloud-native, AI-powered monitoring system combining Kubernetes observability with
+              Generative AI to reduce MTTR. Uses Loki, Promtail, Prometheus and Grafana for centralized
+              logging and monitoring, with a Python FastAPI service integrated with Llama 3 via Groq for
+              automated Root Cause Analysis and actionable remediation guidance for Spring Boot and PHP microservices.
             </p>
             <div class="architecture">
-              <span>Pods</span><i>→</i><span>Loki</span><i>→</i><span>FastAPI</span><i>→</i><span>LLM</span><i>→</i><span>RCA</span>
+              <span>Kubernetes</span><i>→</i><span>Loki</span><i>→</i><span>FastAPI</span><i>→</i><span>Llama 3</span><i>→</i><span>RCA</span>
             </div>
-            <div class="chips"><b>Kubernetes</b><b>Loki</b><b>Promtail</b><b>Prometheus</b><b>Grafana</b><b>Python</b><b>FastAPI</b><b>Llama 3</b><b>Groq</b></div>
+            <div class="chips">
+              <b>Kubernetes</b><b>Loki</b><b>Promtail</b><b>Prometheus</b><b>Grafana</b>
+              <b>Python</b><b>FastAPI</b><b>Llama 3</b><b>Groq</b>
+            </div>
+            <a class="project-link" href="https://github.com/yadavvinayak/ai-monitor-k8s" target="_blank" rel="noreferrer">View on GitHub ↗</a>
           </article>
 
           <article class="project-card">
-            <div class="project-top"><span>02</span><span class="tag">GITOPS</span></div>
-            <h3>Production CI/CD Platform</h3>
-            <p>Jenkins and ArgoCD delivery workflows with GitOps, automated rollback and progressive delivery patterns.</p>
-            <div class="chips"><b>Jenkins</b><b>ArgoCD</b><b>Git</b><b>Helm</b><b>Kubernetes</b></div>
+            <div class="project-top"><span>02</span><span class="tag">DEVSECOPS / CI</span></div>
+            <h3>3-Tier GitOps CI Pipeline</h3>
+            <p>
+              DevSecOps CI pipeline for a containerized 3-tier React and Node.js application. Automates
+              code validation, secret detection, vulnerability scanning, Docker image builds, immutable
+              Git commit SHA tagging, and container image security scanning using GitHub Actions and Jenkins.
+              Successful CI builds automatically update the separate GitOps CD repository with the new image versions.
+            </p>
+            <div class="chips">
+              <b>GitHub Actions</b><b>Jenkins</b><b>Docker</b><b>Gitleaks</b><b>Trivy</b>
+              <b>SonarQube</b><b>GitOps</b><b>React</b><b>Node.js</b>
+            </div>
+            <a class="project-link" href="https://github.com/yadavvinayak/3-Tier-GitOps-CI" target="_blank" rel="noreferrer">View on GitHub ↗</a>
           </article>
 
           <article class="project-card">
-            <div class="project-top"><span>03</span><span class="tag">INFRASTRUCTURE</span></div>
-            <h3>Terraform AWS Platform</h3>
-            <p>Reusable infrastructure patterns for multi-environment AWS platforms covering networking, compute, Kubernetes and data services.</p>
-            <div class="chips"><b>Terraform</b><b>AWS</b><b>VPC</b><b>EKS</b><b>RDS</b></div>
+            <div class="project-top"><span>03</span><span class="tag">GITOPS / CD</span></div>
+            <h3>3-Tier GitOps Continuous Delivery</h3>
+            <p>
+              Declarative GitOps Continuous Delivery repository for a production 3-tier application on
+              Kubernetes. Manages version-controlled manifests for the React frontend, Node.js backend,
+              MySQL database, Services, Ingress and TLS certificates, using immutable Git SHA-based image
+              versions for consistent, traceable and repeatable deployments.
+            </p>
+            <div class="chips">
+              <b>GitOps</b><b>Kubernetes</b><b>React</b><b>Node.js</b><b>MySQL</b>
+              <b>Ingress</b><b>TLS</b><b>Git SHA</b>
+            </div>
+            <a class="project-link" href="https://github.com/yadavvinayak/3-Tier-GitOps-CD" target="_blank" rel="noreferrer">View on GitHub ↗</a>
           </article>
         </div>
       </div>
